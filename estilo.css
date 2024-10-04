@@ -1,0 +1,49 @@
+body {
+    background-color: rgb(116, 84, 61);
+    font: normal 15pt arial;
+    padding: 0px 20px;
+    height: 92vh;
+    align-content: center;
+}
+header {
+    color: white;
+    text-align: center;
+}
+
+section {
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    max-width: 600px;
+    margin: auto;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.538);
+}
+
+footer {
+    color: white;
+    text-align: center;
+    font-style: italic;   
+
+
+}
+h1 {
+    font-size: 30px;
+}
+#coleta-num {
+    display: flex;
+    align-items: baseline;
+    /*gap: 7px;*/
+}
+#caixa-resul {
+    width: 100%;
+    min-height: 10vh;
+    border: 1px solid black;
+}
+#caixa-resul #item {
+    margin: 5px;
+    font-size: 17px;
+}
+.texto-resul {
+    font-size: 17px;
+    margin-top: 10px;
+}
